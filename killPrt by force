@@ -1,0 +1,5 @@
+//particleforce
+vector $force1 = inputForce[1];
+vector $force2 = inputForce[2];
+if( `mag $force1` != 0 || `mag $force2` != 0 )
+		lifespanPP = 0;
